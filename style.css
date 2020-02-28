@@ -1,0 +1,103 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://example.com/twenty-nineteen-child/
+ Description:  Twenty Nineteen Child Theme
+ Author:       Luka Ross
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenenfant
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.entry .entry-title:before {
+  display: none;
+}
+
+.site {
+  background-color: lightcoral;
+}
+
+.site-footer {
+  background-color: lightskyblue;
+}
+
+.rayure {
+  background: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+}
+
+.animbloc1 {
+  -webkit-animation: anim1 1s infinite;
+          animation: anim1 1s infinite;
+}
+
+.animbloc2 {
+  -webkit-animation: anim2 2s infinite;
+          animation: anim2 2s infinite;
+}
+
+@-webkit-keyframes anim1 {
+  from {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(200px);
+            transform: translate(200px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes anim1 {
+  from {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(200px);
+            transform: translate(200px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-webkit-keyframes anim2 {
+  from {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+  50% {
+    -webkit-transform: skewX(90deg);
+            transform: skewX(90deg);
+  }
+  to {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+}
+
+@keyframes anim2 {
+  from {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+  50% {
+    -webkit-transform: skewX(90deg);
+            transform: skewX(90deg);
+  }
+  to {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+}
+/*# sourceMappingURL=style.css.map */

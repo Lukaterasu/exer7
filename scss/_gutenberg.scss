@@ -1,0 +1,42 @@
+.site {
+    background-color: lightcoral;
+}
+
+.site-footer {
+    background-color: lightskyblue;
+}
+.rayure {
+    @include rayureNoel;
+}
+
+.animbloc1 {
+    animation: anim1 1s infinite;
+}
+
+.animbloc2 {
+    animation: anim2 2s infinite;
+}
+
+@keyframes anim1 {
+   from {
+    transform: translate(0px);
+   }
+   50%{
+    transform: translate(200px);
+   }
+   to {
+    transform: translate(0);
+   }
+}
+
+@keyframes anim2 {
+    from {
+     transform: skewX(0);
+    }
+    50%{
+     transform: skewX(90deg)
+    }
+    to {
+     transform: skewX(0)
+    }
+ }
